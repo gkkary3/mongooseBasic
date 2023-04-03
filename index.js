@@ -21,11 +21,11 @@ const Movie =  mongoose.model('Movie', movieSchema);
 
 // const amadeus = new Movie({ title: 'Django', year: 2010, score: 8.0, rating: 'R' });
 
-Movie.insertMany([
-  {title: 'Amelie', year: 2001, score: 8.3, raing: 'R'},
-  {title: 'Alien', year: 1979, score: 8.1, rating: 'R'}
-])
-.then(data=>{
-  console.log('IT WORKED!')
-  console.log(data);
-})
+// Movie.insertMany([
+//   {title: 'Amelie', year: 2001, score: 8.3, raing: 'R'},
+//   {title: 'Alien', year: 1979, score: 8.1, rating: 'R'}
+// ])
+// .then(data=>{
+//   console.log('IT WORKED!')
+//   console.log(data);
+// })
